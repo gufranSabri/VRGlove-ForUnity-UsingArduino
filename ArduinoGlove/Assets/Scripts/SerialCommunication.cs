@@ -62,7 +62,7 @@ public class SerialCommunication : MonoBehaviour
                     Debug.Log(dataIMU[0] + " " + dataIMU[1]);
 
                     hand.Enact(dataIMU[0], dataIMU[1]);
-/*
+
                     thumb1.Rotate(dataFlex[0], 0, 0);
                     thumb2.Rotate(dataFlex[0], 0, 0);
                     thumb3.Rotate(dataFlex[0], 0, 0);
@@ -81,7 +81,7 @@ public class SerialCommunication : MonoBehaviour
 
                     pinky1.Rotate(dataFlex[4], 0, 0);
                     pinky2.Rotate(dataFlex[4], 0, 0);
-                    pinky3.Rotate(dataFlex[4], 0, 0);*/
+                    pinky3.Rotate(dataFlex[4], 0, 0);
                 }
             }
             catch (Exception)
